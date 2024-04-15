@@ -1,4 +1,4 @@
-# <div style="display: flex; align-items: center;"><img src="https://raw.githubusercontent.com/IgorBezanovic/randomizer-plus/master/rp-logo.png" alt="Randomizer-plus logo" style="width: 50px; height: 50px; margin-right: 10px;" /> Randomizer-plus</div>
+# Randomizer-plus
 
 A library that allows you to randomize everything.
 
@@ -21,6 +21,20 @@ A library that allows you to randomize everything.
     // Generate a random female name
     const femaleName = randomName('female');
     console.log(femaleName);
+  ```
+  - randomAge:
+    ```
+    // Generate a random age
+    const age = randomAge(); // Generates a random age regardless of min and max age.
+    console.log(age);
+
+    // Generate randomly ages with minimum age.
+    const age = randomAge(20);
+    console.log(age);
+
+    // Generate random ages in rang of min and max ages.
+    const age = randomAge(18, 55);
+    console.log(age);
   ```
 
 ## Project started
