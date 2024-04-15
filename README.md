@@ -23,7 +23,7 @@ A library that allows you to randomize everything.
     console.log(femaleName);
   ```
   - randomAge:
-    ```
+  ```
     // Generate a random age
     const age = randomAge(); // Generates a random age regardless of min and max age.
     console.log(age);
