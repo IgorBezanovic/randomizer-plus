@@ -3,25 +3,9 @@
 A library that allows you to randomize everything.
 
 ## Next release
-  - randomName() - adding Female names
-  - randomName() - adding parameters for choosing male or female name, without parameters is random from both
-  - randomAge() - adding random age of "user"
+  -  In the some of next releases, we will add cities and popular names (m/f) from other countries (from South America, Europe, Africa, Asia, Australia)
 
 ## Functions
-  - randomName:
-  ```
-    // Generate a random name
-    const name = randomName(); // Generates a random name regardless of gender
-    console.log(name);
-
-    // Generate a random male name
-    const maleName = randomName('male');
-    console.log(maleName);
-
-    // Generate a random female name
-    const femaleName = randomName('female');
-    console.log(femaleName);
-  ```
   - randomAge:
   ```
     // Generate a random age
@@ -35,6 +19,26 @@ A library that allows you to randomize everything.
     // Generate random ages in rang of min and max ages.
     const age = randomAge(18, 55);
     console.log(age);
+  ```
+  - randomCity:
+  ```
+    // Generate a random US city
+    const city = randomCity(); // In the next releases, we will add cities from other countries (from South America, Europe, Africa, Asia, Australia).
+    console.log(city);
+  ```
+  - randomName:
+  ```
+    // Generate a random name
+    const name = randomName(); // Generates a random name regardless of gender
+    console.log(name);
+
+    // Generate a random male name
+    const maleName = randomName('male');
+    console.log(maleName);
+
+    // Generate a random female name
+    const femaleName = randomName('female');
+    console.log(femaleName);
   ```
 
 ## Project started
