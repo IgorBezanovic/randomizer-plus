@@ -1,19 +1,20 @@
 import { randomIndex } from '../../utils/randomIndex';
-import listOfNamesMaleUS from '../../data/names/maleUS';
-import listOfNamesFemaleUS from '../../data/names/femaleUS';
+import listOfNamesMale from '../../data/names/male';
+import listOfNamesFemale from '../../data/names/female';
 
 /**
- * Generates a random name from a list of male names in the United States.
+ * Generates a random name from a list of names.
+ *
  * @param {string} gender - Possible value 'male' or 'female'.
  * @returns {string} A random male name.
  */
 export const randomName = (gender?: string): string => {
     if (gender && gender.toLowerCase().trim() === 'male') {
-        return listOfNamesMaleUS[randomIndex(listOfNamesMaleUS)];
+        return listOfNamesMale[randomIndex(listOfNamesMale)];
     } else if (gender && gender.toLowerCase().trim() === 'female') {
-        return listOfNamesFemaleUS[randomIndex(listOfNamesFemaleUS)];
+        return listOfNamesFemale[randomIndex(listOfNamesFemale)];
     } else {
-        const mergedList = [...listOfNamesMaleUS, ...listOfNamesFemaleUS];
+        const mergedList = [...listOfNamesMale, ...listOfNamesFemale];
         return mergedList[randomIndex(mergedList)];
     }
 };

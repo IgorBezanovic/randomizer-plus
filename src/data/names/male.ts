@@ -1,5 +1,5 @@
 /**
- * Array containing a list of popular US male names.
+ * Array containing a list of popular male names.
  * @type {string[]}
  */
 export default [

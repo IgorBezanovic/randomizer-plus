@@ -22,9 +22,15 @@ A library that allows you to randomize everything.
   ```
   - randomCity:
   ```
-    // Generate a random US city
+    // Generate a random city
     const city = randomCity(); // In the next releases, we will add cities from other countries (from South America, Europe, Africa, Asia, Australia).
     console.log(city);
+  ```
+  - randomLastname:
+  ```
+    // Generate a random lastname
+    const lastname = randomLastname();
+    console.log(lastname);
   ```
   - randomName:
   ```

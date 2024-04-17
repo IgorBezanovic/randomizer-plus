@@ -1,3 +1,6 @@
+/**
+ * Array containing a list of cities from US.
+ */
 export default [
     {
         id: 1,
