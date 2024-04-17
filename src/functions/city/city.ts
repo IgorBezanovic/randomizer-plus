@@ -1,5 +1,5 @@
 import { randomIndex } from '../../utils/randomIndex';
-import citiesUS from '../../data/cities/citiesUS';
+import citiesUS from '../../data/cities/cities';
 
 /**
  * Generates a random city from a list of cities in the United States.
@@ -7,6 +7,6 @@ import citiesUS from '../../data/cities/citiesUS';
  * @returns {string} A random US city.
  */
 export const randomCity = (): string => {
-    return citiesUS[randomIndex(citiesUS)].CITY;
+    return citiesUS[randomIndex(citiesUS)].city;
 };
 export default randomCity;
