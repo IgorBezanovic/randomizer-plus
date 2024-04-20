@@ -1,5 +1,5 @@
 /**
- * Array containing a list of lastnames.
+ * Array containing a list of lastNames.
  *
  * @type {string[]}
  */
