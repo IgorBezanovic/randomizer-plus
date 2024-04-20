@@ -5,10 +5,10 @@ import listOfNamesFemale from '../../data/names/female';
 /**
  * Generates a random name from a list of names.
  *
- * @param {string} gender - Possible value 'male' or 'female'.
- * @returns {string} A random male name.
+ * @param {string} [options.gender] - The gender of the name. Possible values are 'male' or 'female'.
+ * @returns {string} A random name based on the specified gender, or a random name if no gender is provided.
  */
-export const randomName = (gender?: string): string => {
+export const randomName = ({ gender }: { gender?: string } = {}): string => {
     if (gender && gender.toLowerCase().trim() === 'male') {
         return listOfNamesMale[randomIndex(listOfNamesMale)];
     } else if (gender && gender.toLowerCase().trim() === 'female') {

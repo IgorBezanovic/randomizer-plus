@@ -1,12 +1,12 @@
 import { randomIndex } from '../../utils/randomIndex';
-import listOfLastname from '../../data/lastname/lastname';
+import listOfLastName from '../../data/lastName/lastName';
 
 /**
- * Generates a random lastname.
+ * Generates a random lastName.
  *
- * @returns {string} A random lastname.
+ * @returns {string} A random lastName.
  */
-export const randomLastname = (): string => {
-    return listOfLastname[randomIndex(listOfLastname)];
+export const randomLastName = (): string => {
+    return listOfLastName[randomIndex(listOfLastName)];
 };
-export default randomLastname;
+export default randomLastName;
