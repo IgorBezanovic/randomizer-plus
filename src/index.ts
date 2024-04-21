@@ -1,5 +1,6 @@
 export * from './functions/age/age';
 export * from './functions/city/city';
+export * from './functions/color/color';
 export * from './functions/dayOfWeek/dayOfWeek';
 export * from './functions/dice/dice';
 export * from './functions/lastName/lastName';
