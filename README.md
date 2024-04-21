@@ -12,4 +12,4 @@ A library that allows you to randomize everything.
   12. April 2024.
 
 ## Contact person
-Igor Bezanovic - igorbezanovic@gmail.com
+Igor Bezanovic - igorbezanovic@gmail.com, https://www.linkedin.com/in/igor-bezanovic/
